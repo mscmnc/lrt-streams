@@ -1,3 +1,5 @@
+@import '../../assets/sass/main.scss';
+
 .livePage {
     height: 100vh;
     font-family: 'Raleway', sans-serif;
@@ -5,18 +7,22 @@
 
     &_header {
         margin: 3.5rem 0;   
-
-
-        img {
-            width: 60%;
-        }
     }   
 
-    &_buttons {
-        text-align: center;
-        // display: flex;
-        margin-bottom: 2rem;      
-        
- 
+    &_radio_button, &_television_button {
+       margin-bottom: 2rem; 
+       display: flex;
+       justify-content: center;
+    }
+
+    &_player {
+        height: 40vh;
+        display: flex;
+        align-items: center;
+    }
+
+    &_error {
+        color: $color-red;
+        font-size: 1.2rem;
     }
 }

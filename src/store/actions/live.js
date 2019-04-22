@@ -23,11 +23,9 @@ export const getLiveVideo = (channel) => {
         axios({ 
             method: 'GET',
             url: `https://lrt-api.herokuapp.com/live/${channel}`,
-        }).then(function(response) {      
-            console.log(response)
+        }).then(function(response) {
             dispatch(liveVideoSuccess(response.data.response.data));
         }).catch(error => {
-            console.log(error)
             dispatch(liveVideoFail(error));
         });
     }

@@ -1,9 +1,9 @@
 ## Lietuvos nacionalinis radijas ir televizija. LRT live streams.  
-My Backend code can find here: (https://github.com/mscmnc/lrtAPI). Frontend side was created with HTML5, CSS3, SASS, ES6, ReactJS, Redux.
+My Backend code can find here: (https://github.com/mscmnc/lrtAPI). Frontend side was created with HTML5, CSS3, SASS, ES6, ReactJS, Redux and BEM.
 
 
 ## How to use?
- - Choose the channel.
+ - Choose the channel. 
  - Watch live stream or listen the radio.
 
 ### Live demo here: [LRT live streams](https://mscmnc.github.io/lrt-streams)
