@@ -1,0 +1,22 @@
+.livePage {
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+
+    &_header {
+        margin: 3.5rem 0;   
+
+
+        img {
+            width: 60%;
+        }
+    }   
+
+    &_buttons {
+        text-align: center;
+        // display: flex;
+        margin-bottom: 2rem;      
+        
+ 
+    }
+}

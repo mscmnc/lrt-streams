@@ -1,0 +1,10 @@
+.logoButton img {  
+    cursor: pointer;
+    width: 40%;
+    transition: transform 0.3s ease-in;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+
+}
