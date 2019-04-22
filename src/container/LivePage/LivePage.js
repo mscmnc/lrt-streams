@@ -42,15 +42,15 @@ const LivePage = props => {
 
     return (
         <section className="container livePage">
-            <div className="row  justify-content-center livePage_header">            
+            <div className="row justify-content-center livePage_header">            
                 <h2>LRT Channels in one place. Choose one!</h2>
             </div>
-            <div className="row  justify-content-center livePage_television">
+            <div className="row justify-content-center livePage_television">
                 <LogoButton logo='lrtTv' className="livePage_television_button" id='ltv' onClick={getVideoHandler}/>
                 <LogoButton logo='lrtPlius' className="livePage_television_button" id='ltv2' onClick={getVideoHandler}/>
                 <LogoButton logo='lrtLituanica' className="livePage_television_button" id='world' onClick={getVideoHandler}/>
             </div>
-            <div className="row  justify-content-center livePage_radio">            
+            <div className="row justify-content-center livePage_radio">            
                 <LogoButton logo='lrtClassic' className="livePage_radio_button" id='klasika' onClick={getVideoHandler}/>
                 <LogoButton logo='lrtRadio' className="livePage_radio_button" id='lr' onClick={getVideoHandler}/>
                 <LogoButton logo='lrtOpus' className="livePage_radio_button" id='opus' onClick={getVideoHandler}/>
