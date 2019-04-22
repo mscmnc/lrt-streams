@@ -22,7 +22,7 @@ export const getLiveVideo = (channel) => {
         });
         axios({ 
             method: 'GET',
-            url: `https://lrt-api.herokuapp.com/live/${channel}`,
+            url: `https://lrt-api.eu-gb.mybluemix.net/live/${channel}`,
         }).then(function(response) {
             dispatch(liveVideoSuccess(response.data.response.data));
         }).catch(error => {
